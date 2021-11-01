@@ -4,8 +4,8 @@ Desarrollador Web & Mobile Full Stack MERN
 ## Mis estadísticas
 
 <p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=bastiampos&hide=prs&layout=compact&show_icons=true&theme=dark&include_all_commits=true&hide_title=true&locale=es" />
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bastiampos&layout=compact&theme=dark" />
+  <img height="150em" align="center" src="https://github-readme-stats.vercel.app/api?username=bastiampos&hide=prs&layout=compact&show_icons=true&theme=dark&include_all_commits=true&hide_title=true&locale=es" />
+  <img height="150em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bastiampos&layout=compact&theme=dark" />
 </p>
 
 
