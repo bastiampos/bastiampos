@@ -1,13 +1,10 @@
 ## Hola, soy Sebastian 👋 <a href="https://twitter.com/bastiampos" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="bastiampos" height="40" width="40" /></a> <a href="mailto:bastiampos.job@gmail.com" target="blank"><img align="center" src="https://github.com/bastiampos/bastiampos/blob/main/assets/iconGmail.png" alt="bastiampos.job@gmail.com" height="40" width="40" /></a> <a href="https://linkedin.com/in/bastiampos" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="bastiampos" height="30" width="40" /></a>
 Desarrollador Web & Mobile Full Stack MERN
 
-## Mis estadísticas
-
-<p>
-  <img height="150em" align="center" src="https://github-readme-stats.vercel.app/api?username=bastiampos&hide=prs&layout=compact&show_icons=true&theme=dark&include_all_commits=true&hide_title=true&locale=es" />
-  <img height="150em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bastiampos&layout=compact&theme=dark" />
-</p>
-
+<div>
+  <img height="150em" align="center" src="https://github-readme-stats.vercel.app/api?username=bastiampos&layout=compact&show_icons=true&theme=dark&include_all_commits=true&locale=es&custom_title=Estadísticas+de+GitHub" />
+  <img height="150em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bastiampos&layout=compact&theme=dark&custom_title=Uso+de+lenguajes" />
+</div>
 
 ## Habilidades
 <p align="left"> 
