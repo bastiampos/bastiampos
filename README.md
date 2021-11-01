@@ -3,7 +3,10 @@ Desarrollador Web & Mobile Full Stack MERN
 
 ### Mis estadísticas
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=bastiampos&hide=prs&layout=compact&show_icons=true&theme=dark&include_all_commits=true&hide_title=true&locale=es) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bastiampos&layout=compact&theme=dark&locale=es)
+<p>
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=bastiampos&hide=prs&layout=compact&show_icons=true&theme=dark&include_all_commits=true&hide_title=true&locale=es" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bastiampos&layout=compact&theme=dark" />
+</p>
 
 ### Encuéntrame en
 <p align="left">
