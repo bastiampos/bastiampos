@@ -1,38 +1,180 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'sohne-normal';
+  src: url('./assets/fonts/sohne/normal.otf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'sohne-bold';
+  src: url('./assets/fonts/sohne/bold.otf');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'sohne-light';
+  src: url('./assets/fonts/sohne/light.otf');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@font-face {
+  font-family: 'greycliff-normal';
+  src: url('./assets/fonts/greycliff/GreycliffCF-Medium.otf');
+}
+
+@font-face {
+  font-family: 'greycliff-bold';
+  src: url('./assets/fonts/greycliff/GreycliffCF-ExtraBold.otf');
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {display: flex}
+
+.fullFlex {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.alignFlex {
+  display: flex;
+  align-items: center;
+}
+
+.gap1 {gap: 1vmin}
+.gap2 {gap: 2vmin}
+
+body {
+   font-family: 'sohne-normal';
+ }
+
+/* HEADER */
+
+header {
+  background-color: rgb(15, 15, 15);
+  padding: 0 5%;
+  height: 10vh;
+  justify-content: space-between;
+  /* border-bottom: 1px solid black; */
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.466);
+}
+
+header h1 {color: white}
+
+.horizontalNav {gap: 2vmin}
+.verticalNav {display: none;}
+
+.horizontalNav a, .footerNav a {
+   color: rgb(143, 142, 142);
+   text-decoration: none;
+   font-size: 0.9em;
+   padding: 1vmin 2vmin;
+   font-family: 'sohne-light';
+   display: flex;
+   flex-direction: row;
+}
+
+.horizontalNav a:hover, .footerNav a:hover {color: white;}
+
+header fieldset {
+   width: 30px;
+   height: 30px;
+   border-radius: 5px;
+   border: 1px solid rgb(71, 71, 71);
+   cursor: pointer;
+   font-size: 14px;
+   font-family: 'sohne-light';
+   color: rgb(165, 162, 162);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+header fieldset:hover {
   color: white;
+  border: 1px solid white;
 }
 
-.App-link {
-  color: #61dafb;
+.horizontalNav .activeHeader {
+   color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+/* FOOTER */
+
+footer {
+   min-height: 10vh;
+   padding: 0 5%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: rgb(143, 142, 142);
+   background-color: #161616;
+ }
+
+.linkFooter p, .linkFooter a {
+   font-size: 20px;
+   color: rgb(165, 162, 162);
+   text-decoration: none;
+   fill: rgb(165, 162, 162);
+   display: flex;
+   align-items: center;
+}
+
+.linkFooter a:hover {color: white;}
+
+/* MAIN */
+
+main {
+   padding: 0 5%;
+   min-height: 80vh;
+}
+
+/* ABOUT */
+
+
+
+/* PROJECTS */
+
+
+/* CONTENIDO */
+
+
+
+/*  QUERIES  */
+
+@media screen and (max-width: 1200px) {
+   
+}
+
+@media screen and (max-width: 992px) {
+   
+}
+
+@media screen and (max-width: 768px) {
+   .horizontalNav {display: none;}
+
+   .verticalNav {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 30px;
+      width: 30px;
+      border: 1px solid rgb(165, 162, 162);
+      color: rgb(165, 162, 162);
+      border-radius: 5px;
+   }
+
+   .verticalNav:hover {
+      color: white;
+      border-color: white;
+   }
+}
+
+@media screen and (max-width: 576px) {
+   
 }
