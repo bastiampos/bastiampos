@@ -1,11 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import { applyMiddleware, createStore } from 'redux'
+import { Provider } from 'react-redux'
+import mainReducer from './redux/reducers/main'
+import thunk from 'redux-thunk'
+
+const globalStore = createStore(mainReducer, applyMiddleware(thunk))
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+   <React.StrictMode>
+      <Provider store={globalStore}>
+         <App />
+      </Provider>
+   </React.StrictMode>,
+   document.getElementById('root')
 );
-
