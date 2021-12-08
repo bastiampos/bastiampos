@@ -90,14 +90,14 @@ const Footer = () => {
                <p>{language === 'ES' ? 'De' : 'From'}</p>
                <img
                   src="https://flagcdn.com/h20/co.png"
-                  srcset="https://flagcdn.com/h40/co.png 2x, https://flagcdn.com/h60/co.png 3x"
+                  srcSet="https://flagcdn.com/h40/co.png 2x, https://flagcdn.com/h60/co.png 3x"
                   height="20"
                   alt="Colombia"
                />
                <p>{language === 'ES' ? 'viviendo en' : 'live in'}</p>
                <img
                   src="https://flagcdn.com/h20/ar.png"
-                  srcset="https://flagcdn.com/h40/ar.png 2x, https://flagcdn.com/h60/ar.png 3x"
+                  srcSet="https://flagcdn.com/h40/ar.png 2x, https://flagcdn.com/h60/ar.png 3x"
                   height="20"
                   alt="Argentina"
                />
