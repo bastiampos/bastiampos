@@ -9,8 +9,8 @@
 }
 
 @font-face {
-  font-family: 'sohne-light';
-  src: url('./assets/fonts/sohne/light.otf');
+   font-family: 'sohne-light';
+   src: url('./assets/fonts/sohne/light.otf');
 }
 
 @font-face {
@@ -169,8 +169,9 @@ footer {
    display: flex;
    align-items: flex-start;
    justify-content: space-between;
-   /* border-top: 1px solid var(--gray-border-color); */
    padding: 6vmin 10vmin 8vmin 10vmin;
+   font-family: 'sohne-light';
+   font-size: 14px;
 }
 
 footer nav a {
@@ -183,7 +184,7 @@ footer nav a {
    gap: 1vmin;
 }
 
-footer nav p {font-size: 16px;}
+footer nav p {font-size: 14px;}
 
 footer nav {
    display: flex;
@@ -203,7 +204,7 @@ footer nav {
 
 .translateFooter {text-decoration: underline; cursor: pointer;}
 
-.poweredFooter p {font-size: 16px;}
+.poweredFooter p {font-size: 14px;}
 
 .columnFooter{
    display: flex;
@@ -220,8 +221,12 @@ footer nav {
 /* MAIN */
 
 main {
-   /* padding: 0 10vmin; */
-   /* min-height: 50vh; */
+
+}
+
+main.home, main.about {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
 }
 
 .building {
@@ -230,29 +235,20 @@ main {
    align-items: center;
 }
 
-/* HOME */
-
-.home section {
+.home section, .about section {
+   padding-top: 5vmin;
+   padding-bottom: 5vmin;
+   padding: 5vmin 10vmin;
    border-bottom: 1px solid var(--gray-border-color);
 }
 
-.home section {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
+section.left {
+   border-right: 1px solid var(--gray-border-color);
 }
 
-.leftContainer, .rightContainer {
-   padding: 5vmin;
-}
+.spanC2 {grid-column: span 2;}
 
-.rightContainer {
-   padding-right: 10vmin;
-   border-left: 1px solid var(--gray-border-color);
-}
-
-.leftContainer {
-   padding-left: 10vmin;
-}
+/* HOME */
 
 .mainTitleHero h1 {
    font-size: 7vmin;
@@ -308,12 +304,13 @@ main {
    font-family: 'sohne-light';
 }
 
-.whoAreYouHome {
-   display: flex;
-}
-
 /* ABOUT */
 
+
+
+.about section {
+   
+}
 
 
 /* PROJECTS */

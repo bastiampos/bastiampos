@@ -23,38 +23,34 @@ const Home = () => {
 
    return (
       <main className="home">
-         <section className="heroHome">
-            <div className="leftContainer mainTitleHero">
-               <p>¿Eres nuevo o ya incursionas en IT?</p>
-               <h1>Tips y recursos de programacion y diseño UX/UI</h1>
+         <section className="spanC2 mainTitleHero">
+            <p>¿Eres nuevo o ya incursionas en IT?</p>
+            <h1>Tips y recursos de programacion y diseño UX/UI</h1>
+            <div className="alignFlex gap2">
                <button>Visitar el blog (próximamente)</button>
-            </div>
-            <div className="rightContainer lastArticlesHome">
-               <h2>Ultimos posteos</h2>
-               <article>
-                  <h3>Mi primer aplicacion con React.js y Node.js</h3>
-                  <p>Paso a paso para crear tu primer aplicacion con las librerías más utilizadas dle momento</p>
-                  <span>6 min de lectura - Diciembre 4 de 2021</span>
-               </article>
-               <article>
-                  <h3>Mi primer aplicacion con React.js y Node.js</h3>
-                  <p>Paso a paso para crear tu primer aplicacion con las librerías más utilizadas dle momento</p>
-                  <span>6 min de lectura - Diciembre 4 de 2021</span>
-               </article>
-               <article>
-                  <h3>Mi primer aplicacion con React.js y Node.js</h3>
-                  <p>Paso a paso para crear tu primer aplicacion con las librerías más utilizadas dle momento</p>
-                  <span>6 min de lectura - Diciembre 4 de 2021</span>
-               </article>
+               <button>Ver recursos (próximamente)</button>
             </div>
          </section>
-         <section className="whoAreYouHome">
-            <div className="leftContainer">
-               a
-            </div>
-            <div className="rightContainer">
-               a
-            </div>
+         <section className="left lastArticlesHome">
+            <h2>Ultimos posteos</h2>
+            <article>
+               <h3>Mi primer aplicacion con React.js y Node.js</h3>
+               <p>Paso a paso para crear tu primer aplicacion con las librerías más utilizadas dle momento</p>
+               <span>6 min de lectura - Diciembre 4 de 2021</span>
+            </article>
+            {/* <article>
+               <h3>Mi primer aplicacion con React.js y Node.js</h3>
+               <p>Paso a paso para crear tu primer aplicacion con las librerías más utilizadas dle momento</p>
+               <span>6 min de lectura - Diciembre 4 de 2021</span>
+            </article>
+            <article>
+               <h3>Mi primer aplicacion con React.js y Node.js</h3>
+               <p>Paso a paso para crear tu primer aplicacion con las librerías más utilizadas dle momento</p>
+               <span>6 min de lectura - Diciembre 4 de 2021</span>
+            </article> */}
+         </section>
+         <section className="leftSection">
+            a
          </section>
       </main>
    )
