@@ -1,6 +1,3 @@
-[submodule "frontend/bastiampos-frontend"]
-	path = frontend/bastiampos-frontend
-	url = https://github.com/bastiampos/bastiampos-frontend.git
 [submodule "bastiampos-frontend"]
 	path = bastiampos-frontend
 	url = https://github.com/bastiampos/bastiampos-frontend.git
