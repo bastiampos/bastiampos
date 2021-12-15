@@ -1,11 +1,6 @@
 ## Hola, soy Sebastian 👋 <a href="https://twitter.com/bastiampos" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="bastiampos" height="25" width="25" /></a> <a href="mailto:bastiampos.job@gmail.com" target="blank"><img align="center" src="https://github.com/bastiampos/bastiampos/blob/main/assets/iconGmail.png" alt="bastiampos.job@gmail.com" height="25" width="25" /></a> <a href="https://linkedin.com/in/bastiampos" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="bastiampos" height="20" width="25" /></a>
 Desarrollador Web & Mobile Full Stack MERN
 
-<div>
-  <img height="150em" align="center" src="https://github-readme-stats.vercel.app/api?username=bastiampos&layout=compact&show_icons=true&theme=dark&include_all_commits=true&locale=es&custom_title=Estadísticas+de+GitHub" />
-  <img height="150em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bastiampos&layout=compact&theme=dark&custom_title=Uso+de+lenguajes" />
-</div>
-
 ## Habilidades
 <p align="left"> 
   <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
